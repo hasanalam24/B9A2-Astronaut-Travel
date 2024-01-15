@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700;800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+
+/* Shared Style Start */
+
+.primary-h-style {
+    color: #131318;
+    font-size: 2.2rem;
+    font-weight: 800;
+
+}
+
+.primary-color {
+    color: #FF5400;
+}
+
+.btn-primary {
+    color: white;
+    border: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 8px;
+    font-weight: 600;
+}
+
+/* Shared Style End */
+
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+li a,
+.normal-p-color {
+    color: rgba(19, 19, 24, 0.70);
+}
+
+
+.banner-container {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    border-radius: 16px;
+    margin-top: 30px;
+}
+
+
+.banner-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.banner-head {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.banner-description {
+    color: #FFF;
+}
+
+.banner-input {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.banner-input div {
+    border: 0;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.input-1 {
+    height: 25px;
+    width: 120px;
+    border: 0;
+    border-radius: 5px;
+    padding: 8px;
+
+}
+
+.input-2 {
+    height: 40px;
+    width: 130px;
+    border: 0;
+    border-radius: 5px;
+    padding: 8px;
+    color: rgba(19, 19, 24, 0.50);
+
+}
+
+.input-3 {
+    height: 40px;
+    width: 130px;
+    border: 0;
+    border-radius: 5px;
+    padding: 8px;
+    color: rgba(19, 19, 24, 0.50);
+
+}
+
+.input-4 {
+    height: 40px;
+    width: 130px;
+    font-weight: 800;
+}
+
+.fa-solid {
+    margin-right: 3px;
+}
