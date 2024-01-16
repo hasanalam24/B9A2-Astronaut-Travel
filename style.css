@@ -31,6 +31,14 @@ body {
     background: #FF5400;
     padding: 8px;
     font-weight: 600;
+    height: 40px;
+    width: 130px;
+    font-weight: 800;
+}
+
+.primary-p-style {
+    color: rgba(19, 19, 24, 0.70);
+
 }
 
 /* Shared Style End */
@@ -48,7 +56,7 @@ nav ul {
     align-items: center;
 }
 
-ul li {
+nav>ul li {
     list-style: none;
     margin-right: 20px;
 }
@@ -66,6 +74,7 @@ li a,
 
 
 .banner-container {
+    position: relative;
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(Images/Group\ 13\ \(1\)\ \(1\).png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -74,6 +83,7 @@ li a,
     text-align: center;
     border-radius: 16px;
     margin-top: 30px;
+
 }
 
 
@@ -87,7 +97,7 @@ li a,
 
 .banner-head {
     color: #FFF;
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 800;
     margin-bottom: 30px;
 }
@@ -101,6 +111,9 @@ li a,
     gap: 10px;
     text-align: center;
     margin-top: 30px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
 
 }
 
@@ -139,12 +152,117 @@ li a,
 
 }
 
-.input-4 {
-    height: 40px;
-    width: 130px;
-    font-weight: 800;
-}
+.input-4 {}
 
 .fa-solid {
     margin-right: 3px;
+}
+
+/* banner section :end */
+
+
+/* Our :plan */
+.plan-container {
+    display: flex;
+    gap: 40px;
+    margin-top: 80px;
+    align-items: center;
+}
+
+.plan-content {
+    width: 50%;
+    line-height: 26px;
+
+}
+
+.plan-content>ul li {
+    margin-left: 20px;
+}
+
+.plan-img {
+    width: 45%;
+}
+
+.plan-img img {
+    width: 100%;
+}
+
+.destination-content {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.destination-img-container {}
+
+
+
+
+
+/* Responsive Media Device */
+
+@media screen and (max-width:600px) {
+
+
+
+    .banner-container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .banner-title {
+        width: 90%;
+    }
+
+    .banner-head {
+        font-size: 3rem;
+
+
+    }
+
+    .banner-input {
+        flex-direction: column;
+        width: 90%;
+
+
+    }
+
+    .input-1 {
+        height: 40px;
+        width: 365px;
+
+    }
+
+    .input-2 {
+        height: 50px;
+        width: 380px;
+
+    }
+
+    .input-3 {
+        height: 50px;
+        width: 380px;
+    }
+
+    .input-4 {
+        height: 50px;
+        width: 380px;
+    }
+
+    /* Our Plan */
+
+    .plan-container {
+        flex-direction: column;
+        width: 100%;
+        text-align: left;
+        margin-top: 30px;
+    }
+
+    .plan-content {
+        width: 100%;
+    }
+
+    .plan-img {
+        width: 100%;
+
+    }
 }
