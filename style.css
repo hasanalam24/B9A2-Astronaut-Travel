@@ -207,7 +207,7 @@ li a,
     margin-bottom: 15px;
 }
 
-.sesnination-descptn {
+.desnination-descptn {
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     font-size: 16px;
@@ -349,6 +349,37 @@ li a,
 h3 {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+
+/* Perfect Place Section */
+.place-container {
+    display: flex;
+    gap: 50px;
+}
+
+.place-content {
+    width: 50%;
+}
+
+.place-bg {
+    width: 50%;
+    background-image: url(Images/Group\ 40089.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.place-bg h4 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.see-more {
+    margin-top: 20px;
 }
 
 /* Newsletter Section */
@@ -562,4 +593,39 @@ footer {
 
     }
 
+
+
+    .destination-container {
+        text-align: center;
+        margin: 0 auto;
+
+    }
+
+    .destination-header {
+        font-size: 1.5rem;
+        margin-left: 10;
+        width: 350px;
+        text-align: center;
+
+    }
+
+    .desnination-descptn {
+        width: 350px;
+    }
+
+    .img-container {
+        display: grid;
+        gap: 1.5rem;
+        margin: 0 20px;
+        width: 80%;
+        grid-template-areas:
+            "c1"
+            "c2"
+            "c3"
+            "c4"
+            "c5"
+            "c6"
+            "c"
+        ;
+    }
 }
