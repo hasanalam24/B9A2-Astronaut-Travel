@@ -308,8 +308,6 @@ hr {
     border: 1px solid tomato;
     border-radius: 10px;
     padding: 30px;
-
-
 }
 
 .input-img {
@@ -452,4 +450,23 @@ footer {
         margin-left: 0px;
         margin-right: 0px;
     }
+
+    .newsletter {
+        flex-direction: column;
+    }
+
+    .input-form {
+        width: 89%;
+
+    }
+
+    footer {
+        padding: 20px 20px;
+    }
+
+    footer .primary-h-style {
+        font-size: 1.7rem;
+
+    }
+
 }
