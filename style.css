@@ -48,6 +48,10 @@ body {
 
 /* Shared Style End */
 
+.main-icon {
+    width: 50px;
+    margin-bottom: -8px;
+}
 
 nav {
     display: flex;
@@ -226,7 +230,7 @@ li a,
 }
 
 #grid-1 {
-    background-image: url(../Images/Rectangle\ 5.png);
+    background-image: url(Images/Rectangle\ 5.png);
     grid-area: c1;
     height: 300px;
     border-radius: 16px;
@@ -236,7 +240,7 @@ li a,
 }
 
 #grid-2 {
-    background-image: url(../Images/Rectangle\ 8.png);
+    background-image: url(Images/Rectangle\ 8.png);
     grid-area: c2;
     height: 300px;
     border-radius: 16px;
@@ -246,7 +250,7 @@ li a,
 }
 
 #grid-3 {
-    background-image: url(../Images/Rectangle\ 6.png);
+    background-image: url(Images/Rectangle\ 6.png);
     grid-area: c3;
     height: 300px;
     border-radius: 16px;
@@ -256,7 +260,7 @@ li a,
 }
 
 #grid-4 {
-    background-image: url(../Images/Rectangle\ 7.png);
+    background-image: url(Images/Rectangle\ 7.png);
     grid-area: c4;
     height: 300px;
     border-radius: 16px;
@@ -266,7 +270,7 @@ li a,
 }
 
 #grid-5 {
-    background-image: url(../Images/Rectangle\ 9.png);
+    background-image: url(Images/Rectangle\ 9.png);
     grid-area: c5;
     height: 300px;
     border-radius: 16px;
@@ -276,7 +280,7 @@ li a,
 }
 
 #grid-6 {
-    background-image: url(../Images/Rectangle\ 11.png);
+    background-image: url(Images/Rectangle\ 11.png);
     grid-area: c6;
     height: 300px;
     border-radius: 16px;
@@ -286,7 +290,7 @@ li a,
 }
 
 #grid-7 {
-    background-image: url(../Images/Rectangle\ 10.png);
+    background-image: url(Images/Rectangle\ 10.png);
     grid-area: c7;
     height: 300px;
     border-radius: 16px;
