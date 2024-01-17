@@ -194,4 +194,24 @@
         background-size: cover;
     }
 
+    /* Newsletter Section */
+    .newsletter {
+        flex-direction: column;
+    }
+
+    .input-form {
+        width: 370px;
+        border: 1px solid tomato;
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .input-img {
+        width: 410px;
+    }
+
+    .input-img img {
+        width: 410px;
+    }
+
 }
