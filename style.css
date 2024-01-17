@@ -580,15 +580,14 @@ hr {
 footer {
     background: rgba(19, 19, 24, 0.05);
     text-align: center;
-    margin-top: 40px;
     padding: 80px;
 }
 
-.icon {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-
+.footer-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 
 .fa-brands {

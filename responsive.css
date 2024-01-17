@@ -214,4 +214,19 @@
         width: 410px;
     }
 
+    /* Footer section */
+
+    footer {
+        padding: 20px;
+    }
+
+    .footer-title {
+        padding: 0;
+        width: 350px;
+        margin: 0;
+    }
+
+    .icon {
+        margin-top: 10px;
+    }
 }
