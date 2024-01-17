@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700;800&display=swap');
 
 
-* {
+
+.hidden {
+    display: none;
+}
+
+/* * {
     margin: 0;
     padding: 0;
-}
+    box-sizing: border-box;
+} */
 
 body {
     font-family: 'Mulish', sans-serif;
-    margin: 30px;
 
 }
 
@@ -19,8 +24,7 @@ body {
     color: #131318;
     font-size: 2.2rem;
     font-weight: 800;
-    margin-bottom: 10px;
-    align-items: center;
+    margin: 0;
 
 }
 
@@ -42,55 +46,60 @@ body {
 
 .primary-p-style {
     color: rgba(19, 19, 24, 0.70);
-    margin-bottom: 10px;
+    margin: 0;
 
 }
 
 /* Shared Style End */
 
 .main-icon {
-    width: 50px;
-    margin-bottom: -8 px;
+    display: flex;
+    align-items: center;
+
 }
 
-nav {
+.main-icon img {
+    width: 60px;
+    object-fit: cover;
+
+}
+
+.nav-container {
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.anchor-container {
+    width: 40%;
     display: flex;
     justify-content: space-between;
 }
 
-nav ul {
-    display: flex;
-    align-items: center;
-}
-
-nav>ul li {
-    list-style: none;
-    margin-right: 20px;
-}
-
-li a {
+.anchor-container a {
     text-decoration: none;
+    color: #424247;
+    font-size: 1.2rem;
     font-weight: 600;
-
 }
 
-li a,
-.normal-p-color {
-    color: rgba(19, 19, 24, 0.70);
+.anchor-container .anchor-color a {
+    color: #FF5400;
 }
-
 
 .banner-container {
     position: relative;
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(Images/Group\ 13\ \(1\)\ \(1\).png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
+    width: 1300px;
+    height: 700px;
     text-align: center;
     border-radius: 16px;
-    margin-top: 30px;
-
+    margin: 0 auto;
 }
 
 
@@ -106,7 +115,7 @@ li a,
     color: #FFF;
     font-size: 4rem;
     font-weight: 800;
-    margin-bottom: 30px;
+
 }
 
 .banner-description {
@@ -114,6 +123,7 @@ li a,
 }
 
 .banner-input {
+    position: absolute;
     display: flex;
     gap: 10px;
     text-align: center;
@@ -121,14 +131,12 @@ li a,
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     padding: 16px;
-
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -75%);
 }
 
-.banner-input div {
-    border: 0;
-    margin: 0 auto;
-    align-items: center;
-}
+
 
 .input-1 {
 
@@ -173,7 +181,7 @@ li a,
 .plan-container {
     display: flex;
     gap: 40px;
-    margin-top: 80px;
+    margin-top: 20px;
     align-items: center;
 }
 
@@ -208,7 +216,7 @@ li a,
     text-align: center;
     font-size: 40px;
     font-weight: 800;
-    margin-top: 60px;
+    margin-top: 15px;
     margin-bottom: 15px;
 }
 
@@ -217,7 +225,7 @@ li a,
     text-align: center;
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 35px;
+    /* margin-bottom: 35px; */
 }
 
 .grid {
@@ -234,9 +242,9 @@ li a,
     background-image: url(Images/Rectangle\ 5.png);
     grid-area: c1;
     height: 300px;
+    width: auto;
     border-radius: 16px;
     background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -246,7 +254,6 @@ li a,
     height: 300px;
     border-radius: 16px;
     background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -256,7 +263,6 @@ li a,
     height: 300px;
     border-radius: 16px;
     background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -266,7 +272,6 @@ li a,
     height: 300px;
     border-radius: 16px;
     background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -276,7 +281,7 @@ li a,
     height: 300px;
     border-radius: 16px;
     background-position: center;
-    background-size: cover;
+
     background-repeat: no-repeat;
 }
 
@@ -286,7 +291,7 @@ li a,
     height: 300px;
     border-radius: 16px;
     background-position: center;
-    background-size: cover;
+
     background-repeat: no-repeat;
 }
 
@@ -296,7 +301,7 @@ li a,
     height: 300px;
     border-radius: 16px;
     background-position: center;
-    background-size: cover;
+
     background-repeat: no-repeat;
 }
 
@@ -312,8 +317,8 @@ li a,
 
 /* Why Choose Us */
 
-.choose {
-    margin-top: 50px;
+.why {
+    margin: 0px;
     text-align: center;
 }
 
@@ -322,7 +327,7 @@ li a,
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    margin-top: 30px;
+
 
 }
 
@@ -346,7 +351,9 @@ li a,
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
     padding: 35px;
-    margin: 20px 20% 30px 20%;
+    width: 600px;
+    height: 150px;
+    margin: 0 auto;
 }
 
 .card-1,
@@ -366,6 +373,7 @@ h3 {
     background: rgba(41, 206, 246, 0.05);
     padding: 20px;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .my-choose {
@@ -392,31 +400,73 @@ h3 {
 .box-1,
 .box-2,
 .box-3 {
-    border: 4px solid rgb(238, 255, 0);
-    width: fit-content;
+    padding: 10px;
+    box-shadow: 5px 5px 30px rgba(85, 80, 80, 0.541);
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
+}
+
+.box-1 {
+    border-left: 4px solid blue;
+    border-radius: 10px;
+}
+
+.box-2 {
+    border-top: 4px solid tomato;
+    border-radius: 10px;
+}
+
+.box-3 {
+    border-right: 4px solid rgb(255, 115, 0);
+    border-radius: 10px;
 }
 
 .box-1:hover {
-    box-shadow: 5px 5px 5px black;
+    background-image: url(Images/jadukata.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 1.5rem;
+
 }
 
 .box-2:hover {
-    box-shadow: 5px 5px 5px rgb(253, 4, 4);
+    background-image: url(Images/mayatong.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 81, 0);
+    font-size: 1.5rem;
 }
 
 .box-3:hover {
-    box-shadow: 5px 5px 5px rgb(3, 212, 240);
+    background-image: url(Images/chandranath.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+}
+
+.click-here {
+    color: rgba(95, 95, 95, 0.589);
 }
 
 /* Perfect Place Section */
 .place-container {
     display: flex;
-    gap: 50px;
+    gap: 20px;
 }
 
 .place-content {
     width: 50%;
+}
+
+.place-title {
+    font-size: 2.5rem;
 }
 
 .place-bg {
@@ -451,15 +501,29 @@ hr {
     color: rgba(19, 19, 24, 0.10);
 }
 
+.form-info {
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
-#text,
+#text {
+
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 16px;
+    width: 90%;
+
+
+}
+
 #email {
     border: none;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
-    padding: 16px 350px 16px 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding: 16px;
+    width: 90%;
+
 }
 
 .subscribe-btn {
@@ -469,16 +533,21 @@ hr {
     border-radius: 8px;
     background: #FF5400;
     font-weight: 500;
-    padding: 14px 220px 14px 220px;
+    padding: 14px;
+    width: 98%;
 
 
 }
 
 .input-form {
-    /* width: 40%; */
+    width: 40%;
     border: 1px solid tomato;
     border-radius: 10px;
     padding: 20px;
+}
+
+.input-form p {
+    text-wrap: wrap;
 }
 
 .input-img {
@@ -503,7 +572,7 @@ hr {
     height: 100px;
     position: absolute;
     transform: rotate(-25.628deg);
-    right: -25px;
+    right: 7px;
     bottom: 60px;
 
 }
@@ -529,181 +598,4 @@ footer {
 .copyright {
     color: rgba(19, 19, 24, 0.70);
     margin-top: 20px;
-}
-
-
-/* Responsive Media Device */
-
-@media screen and (max-width:600px) {
-
-    nav {
-        flex-direction: column;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-
-    nav>ul li {
-        text-align: center;
-        margin: 0 auto;
-    }
-
-    .banner-container {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    .banner-title {}
-
-    .banner-head {
-        font-size: 3rem;
-
-
-    }
-
-    .banner-input {
-        flex-direction: column;
-        width: 90%;
-    }
-
-    .input-1 {
-        height: 40px;
-        width: 250px;
-
-
-    }
-
-    .input-2 {
-        height: 50px;
-        width: 260px;
-
-    }
-
-    .input-3 {
-        height: 50px;
-        width: 260px;
-    }
-
-    .input-4 {
-        height: 50px;
-        width: 260px;
-    }
-
-    /* Our Tour */
-
-    .plan-container {
-        flex-direction: column;
-        width: 100%;
-        text-align: left;
-        margin-top: 30px;
-    }
-
-    .plan-content {
-        width: 100%;
-    }
-
-    .plan-img {
-        width: 100%;
-
-    }
-
-    .choose {
-        margin-top: 20px;
-
-
-    }
-
-    .choose p {
-        margin-top: 10px;
-        padding: 0 20px 0 20px;
-    }
-
-    .card-container {
-        grid-template-columns: 1fr;
-        width: 100%;
-
-    }
-
-    .card-3 {
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-
-
-    .place-container {
-        flex-direction: column;
-        margin: 0 auto;
-        padding: auto;
-    }
-
-    .place-content {
-        margin: 0 auto;
-        padding: 0 auto;
-        width: 100%;
-    }
-
-    .place-bg {
-        width: 100%;
-        height: 300px;
-    }
-
-    .newsletter {
-        flex-direction: column;
-        grid-row: 1fr;
-    }
-
-
-
-    .subscribe-btn {
-        padding: 10px 20px;
-    }
-
-    .input-img {
-        width: 100%;
-        margin-right: 10px;
-    }
-
-
-    footer {
-        padding: 20px 20px;
-    }
-
-    footer .primary-h-style {
-        font-size: 1.7rem;
-
-    }
-
-
-
-    .destination-container {}
-
-    .destination-header {
-        font-size: 1.5rem;
-        margin-left: 10;
-        width: 350px;
-        text-align: center;
-
-    }
-
-    .desnination-info {
-        width: 350px;
-    }
-
-    .img-container {
-        display: grid;
-        gap: 1.5rem;
-        margin: 0px auto;
-
-        width: 100%;
-        grid-template-areas:
-            "c1"
-            "c2"
-            "c3"
-            "c4"
-            "c5"
-            "c6"
-            "c"
-        ;
-    }
-
-
 }

@@ -9,44 +9,40 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body>
 
 
 
-    <header>
+    <div class="hidden">
+        <header>
 
-        <nav>
+            <nav class="nav-container">
+                <div class="main-icon">
+                    <img src="icon/OBJECTS.png" alt="">
+                    <h2 class="primary-h-style">Astronaut <span class="primary-color">Travel</span>
+                    </h2>
+                </div>
 
-            <h2 class="primary-h-style">
-                <img class="main-icon" src="icon/OBJECTS.png" alt="">
-                Astronaut <span class="primary-color">Travel</span>
-            </h2>
+                <div class="anchor-container">
+                    <div class="anchor-color"> <a class="primary-color" href="">Home</a>
+                    </div>
 
-            <ul>
-                <li>
-                    <a class="primary-color" href="">Home</a>
-                </li>
-                <li>
                     <a href="">Packages</a>
-                </li>
-                <li>
+
                     <a href="">Testimonial</a>
-                </li>
-                <li>
+
                     <a href="">Blog</a>
-                </li>
-                <li>
+
                     <a href="">Contact</a>
-                </li>
-            </ul>
-        </nav>
+                </div>
 
-        <section class="banner-container">
-            <div class="banner-title">
+            </nav>
 
-                <div>
+            <section class="banner-container">
+                <div class="banner-title">
                     <h1 class="banner-head">Explore Your Travel</h1>
                     <p class="banner-description">Our experienced writers travel the world to bring you informative and
                         inspirational features,
@@ -56,208 +52,248 @@
                     </p>
                 </div>
 
+
                 <div class="banner-input">
 
-                    <div> <input class="input-1" type="text" placeholder="Where go">
-                    </div>
+                    <input class="input-1" type="text" placeholder="Where go">
 
-                    <div>
-                        <select class="input-2">
-                            <option>When</option>
-                            <option>This Month</option>
-                            <option>February 2024</option>
-                            <option>March 2024</option>
-                        </select>
-                    </div>
 
-                    <div>
-                        <select class="input-3">
-                            <option>Select Type</option>
-                            <option>MotorBike</option>
-                            <option>Ship</option>
-                            <option>Plan</option>
-                        </select>
-                    </div>
 
-                    <div>
-                        <button class="btn-primary input-4"> <i class="fa-solid fa-magnifying-glass"></i> Find
-                            Now</button>
-                    </div>
+                    <select class="input-2">
+                        <option>When</option>
+                        <option>This Month</option>
+                        <option>February 2024</option>
+                        <option>March 2024</option>
+                    </select>
+
+
+
+                    <select class="input-3">
+                        <option>Select Type</option>
+                        <option>MotorBike</option>
+                        <option>Ship</option>
+                        <option>Plan</option>
+                    </select>
+
+
+
+                    <button class="btn-primary input-4"> <i class="fa-solid fa-magnifying-glass"></i> Find
+                        Now</button>
+
 
                 </div>
 
-            </div>
-        </section>
 
-    </header>
 
+            </section>
+
+        </header>
+
+    </div>
     <main>
 
         <!-- Our Popular Tours -->
 
-        <section class="plan-container">
-            <div class="plan-content ">
-                <h2 class="primary-h-style">Our Popular Tours</h2>
-                <br>
-                <p class="primary-p-style">Making reservations
-                    Now that you have a rough idea about your trip, this phase will be about booking and reservations.
-                </p>
-                <br>
 
-                <ul class="primary-p-style">
-                    <li>you need to pick a destination first and do the necessary primary research on the country.
-                        What
-                        cities you
-                        want to visit, the duration of your stay, the sites to see, the cuisine, best hotels, and so
-                        on.
-                    </li>
+        <div class="hidden">
+            <section class="plan-container">
+                <div class="plan-content">
+                    <h2 class="primary-h-style">Our Popular Tours</h2>
                     <br>
-                    <li>Next, you need to make
-                        a checklist of everything, that way you can keep track over the next few months.</li>
-                    <br>
-                    <li>Obviously, And finally, and this is the most
-                        important phase one, you need to calculate and formulate your budget</li>
-                    <br>
-                </ul>
+                    <p class="primary-p-style">Making reservations
+                        Now that you have a rough idea about your trip, this phase will be about booking and
+                        reservations.
+                    </p>
 
-                <p class="primary-p-style">so that over the course of the year, you can save
-                    up sufficiently and have a handsome budget to work with.</p>
-                <br>
-                <button class="btn-primary">Read More</button>
-            </div>
-            <div class="plan-img">
-                <img src="Images/Rectangle 4.png" alt="">
-            </div>
-        </section>
-        <!-- Our Popular Tours end -->
+                    <br>
+                    <ul class="primary-p-style">
+                        <li>you need to pick a destination first and do the necessary primary research on the country.
+                            What
+                            cities you
+                            want to visit, the duration of your stay, the sites to see, the cuisine, best hotels, and so
+                            on.
+                        </li>
+                        <br>
+                        <li>Next, you need to make
+                            a checklist of everything, that way you can keep track over the next few months.</li>
+                        <br>
+                        <li>Obviously, And finally, and this is the most
+                            important phase one, you need to calculate and formulate your budget</li>
+
+                    </ul>
+                    <br>
+                    <p class="primary-p-style">so that over the course of the year,you can save
+                        up sufficiently and have a <br>handsome budget to work with. The
+                        same goes for hotels, last minute reservations can often lead you into settling for bad options.
+                        In
+                        short, the earlier
+                        you book, the better deals you get.</p>
+                    <br>
+                    <button class="btn-primary">Read More</button>
+                </div>
+                <div class="plan-img">
+                    <img src="Images/Rectangle 4.png" alt="">
+                </div>
+            </section>
+        </div>
+
+
 
         <!-- Choise your destination -->
 
-        <section class="destination-container">
-            <h2 class="destination-header">Choose Your Destination</h2>
-            <p class="desnination-info">"Pick your path, select your journey. A world of destinations awaits. Your
-                adventure
-                starts now."</p>
 
-            <div class="img-container">
+        <div class="hidden">
+            <section class="destination-container">
+                <h2 class="destination-header">Choose Your Destination</h2>
+                <p class="desnination-info">"Pick your path, select your journey. A world of destinations awaits. Your
+                    adventure
+                    starts now."</p>
 
-                <div class="grid" id="grid-1">Maldives</div>
-                <div class="grid" id="grid-2">Indonesia</div>
-                <div class="grid" id="grid-3">Sri lanka</div>
-                <div class="grid" id="grid-4">North America</div>
-                <div class="grid" id="grid-5">Kashmir</div>
-                <div class="grid" id="grid-6">Bangladesh</div>
-                <div class="grid" id="grid-7">Bandarban</div>
-            </div>
-        </section>
+                <div class="img-container">
+
+                    <div class="grid" id="grid-1">Maldives</div>
+                    <div class="grid" id="grid-2">Indonesia</div>
+                    <div class="grid" id="grid-3">Sri lanka</div>
+                    <div class="grid" id="grid-4">North America</div>
+                    <div class="grid" id="grid-5">Kashmir</div>
+                    <div class="grid" id="grid-6">Bangladesh</div>
+                    <div class="grid" id="grid-7">Bandarban</div>
+                </div>
+            </section>
+        </div>
+
 
         <!-- Why Choose us -->
 
-        <section>
-            <div class="choose">
-                <h2>Why Choose Us</h2>
-                <p>It's always a good
-                    idea to book your tickets beforehand since prices fluctuate on the regular and availability can also
-                    be an issue. The
-                    same goes for hotels,<br> last minute reservations can often lead you into settling for bad options.
-                    In
-                    short, the earlier
-                    you book, the better deals you get.</p>
-            </div>
-
-            <div class="card-container">
-                <div class="card-1">
-                    <img src="icon/hotel 1.png" alt="">
-                    <h3>Handpicked Hotels</h3>
-                    <p class="primary-p-style">Get to know the place better so that once you get there, you do not have
-                        to waste your time just
-                        enjoy our service. </p>
-                </div>
-                <div class="card-2">
-                    <img src="icon/map 1.png" alt="">
-                    <h3>World Class Service</h3>
-                    <p class="primary-p-style">Watch travel vlogs on YouTube to see how others have done it. Join
-                        Facebook communities and engage in discussions, reach
-                        out to locals if possible.</p>
+        <div class="hidden">
+            <section>
+                <div class="why">
+                    <h2>Why Choose Us</h2>
+                    <p>It's always a good
+                        idea to book your tickets beforehand since prices fluctuate on the regular and availability can
+                        also
+                        be an issue. The
+                        same goes for hotels,<br> last minute reservations can often lead you into settling for bad
+                        options.
+                        In
+                        short, the earlier
+                        you book, the better deals you get.</p>
                 </div>
 
-            </div>
+                <div class="card-container">
+                    <div class="card-1">
+                        <img src="icon/hotel 1.png" alt="">
+                        <h3>Handpicked Hotels</h3>
+                        <p class="primary-p-style">Get to know the place better so that once you get there, you do not
+                            have
+                            to waste your time just
+                            enjoy our service. </p>
+                    </div>
+                    <div class="card-2">
+                        <img src="icon/map 1.png" alt="">
+                        <h3>World Class Service</h3>
+                        <p class="primary-p-style">Watch travel vlogs on YouTube to see how others have done it. Join
+                            Facebook communities and engage in discussions, reach
+                            out to locals if possible.</p>
+                    </div>
 
-            <div class="card-3">
-                <img src="icon/price-tag 1.png" alt="">
-                <h3>Best Price Guarantee</h3>
-                <p class="primary-p-style">It's always a good
-                    idea to book your tickets beforehand since prices fluctuate on the regular and availability can
-                    also
-                    be an issue. The
-                    same goes for hotels,<br> last minute reservations can often lead you into settling for bad
-                    options.
-                </p>
-            </div>
-        </section>
+                </div>
 
+                <div class="card-3">
+                    <img src="icon/price-tag 1.png" alt="">
+                    <h3>Best Price Guarantee</h3>
+                    <p class="primary-p-style">It's always a good
+                        idea to book your tickets beforehand since prices fluctuate on the regular and availability can
+                        also
+                        be an issue. The
+                        same goes for hotels,<br> last minute reservations can often lead you into settling for bad
+                        options.
+                    </p>
+                </div>
+            </section>
+
+        </div>
 
         <!-- My Choose Section -->
 
-        <section class="choose-container">
-            <h1 class="my-choose-title">Our Previous Tour</h1>
-            <p class="my-choose-info">It's always a good idea to book your tickets beforehand since prices fluctuate on
-                the regular and availability can also be an issue. </p>
-            <div class="my-choose">
-                <div class="box-1">
-                    <img src="Images/my-1.jpeg" alt="">
-                </div>
-                <div class="box-2">
-                    <img src="Images/my-2.jpeg" alt="">
-                </div>
-                <div class="box-3">
-                    <img src="Images/my-3.jpeg" alt="">
-                </div>
-            </div>
 
-        </section>
+        <div class="hidden">
+            <section class="choose-container">
+                <h1 class="my-choose-title">Our Previous Tour</h1>
+                <p class="my-choose-info">It's always a good idea to book your tickets beforehand since prices fluctuate
+                    on
+                    the regular and availability can also be an issue. </p>
+                <div class="my-choose">
+                    <div class="box-1">
+                        <h3>Jadukata River</h3>
+
+                    </div>
+
+                    <div class="box-2">
+                        <h3>Mayatong Hill</h3>
+
+                    </div>
+                    <div class="box-3">
+                        <h3>Chandranath</h3>
+
+                    </div>
+                </div>
+                <small class="click-here">click here for show image</small>
+
+            </section>
+        </div>
+
 
 
         <!-- Perfect Place Section -->
 
-        <section class="place-container">
 
-            <div class="place-content">
-                <h2>A Simple Perfect Place To Get Lost</h2>
-                <br>
-                <p class="primary-p-style">you need to pick a destination first and do the necessary primary research on
-                    the country.
-                    What
-                    cities you
-                    want to visit, the duration of your stay, the sites to see, the cuisine, best hotels, and so
-                    on.</p>
-                <br>
-                <ul>
+        <div class="hidden">
+            <section class="place-container">
 
-
-                    <li>Next, you need to make
-                        a checklist of everything, that way you can keep track over the next few months.</li>
+                <div class="place-content">
+                    <h2 class="place-title">A Simple Perfect Place <br>
+                        To Get Lost</h2>
                     <br>
-                    <li>Obviously, And finally, and this is the most
-                        important phase one, you need to calculate and formulate your budget</li>
+                    <p class="primary-p-style">you need to pick a destination first and do the necessary primary
+                        research on
+                        the country.
+                        What
+                        cities you
+                        want to visit, the duration of your stay, the sites to see, the cuisine, best hotels, and so
+                        on.</p>
+                    <br>
+                    <ul>
 
-                </ul>
-                <button class="btn-primary see-more">See More</button>
-            </div>
 
-            <div class="place-bg">
-                <h4>Watch Our Mountain in <br> Bangladesh</h4>
+                        <li>Next, you need to make
+                            a checklist of everything, that way you can keep track over the next few months.</li>
+                        <br>
+                        <li>Obviously, And finally, and this is the most
+                            important phase one, you need to calculate and formulate your budget</li>
 
-            </div>
-        </section>
+                    </ul>
+                    <button class="btn-primary see-more">See More</button>
+                </div>
+
+                <div class="place-bg">
+                    <h4>Watch Our Mountain in <br> Bangladesh</h4>
+
+                </div>
+            </section>
+        </div>
+
 
 
         <!-- Newsletter Section -->
 
+
         <section class="newsletter">
             <div class="input-form">
                 <h3>Newsletter</h3>
-                <p class="primary-p-style">Get your daily dose of travel news & tips. Sign up today!</p>
+                <p class="primary-p-style">Get your daily dose of travel news & tips.
+                    Sign up today!
+                </p>
                 <hr>
                 <br>
                 <form class="form-info">
@@ -281,9 +317,10 @@
             </div>
         </section>
 
+
     </main>
 
-    <footer>
+    <footer class="hidden">
 
         <h2 class="primary-h-style">
             <img class="main-icon" src="icon/OBJECTS.png" alt="">

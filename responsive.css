@@ -1,0 +1,197 @@
+@media screen and (max-width: 600px) {
+    .nav-container {
+        flex-direction: column;
+
+    }
+
+    .anchor-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .primary-h-style {
+        color: #131318;
+        font-size: 1.7rem;
+        font-weight: 600;
+
+    }
+
+    .banner-container {
+        background-size: auto;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .banner-title {
+        top: 150px;
+        text-align: center;
+    }
+
+    .banner-head {
+        margin: 0 auto;
+
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .banner-description {
+        width: 350px;
+        text-align: center;
+    }
+
+    .banner-input {
+        position: absolute;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        margin-top: 10px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 320px;
+    }
+
+    .input-1 {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .input-2 {
+        width: 100%;
+
+    }
+
+    .input-3 {
+        width: 100%;
+
+    }
+
+    .input-4 {
+        width: 100%;
+
+    }
+
+    .plan-container {
+        flex-direction: column;
+    }
+
+    .plan-content {
+        width: 400px;
+    }
+
+    .plan-img {
+        width: 400px;
+        height: 300px;
+    }
+
+    .plan-img img {
+        width: 400px;
+        height: 300px;
+    }
+
+    /* destination area */
+    .destination-header {
+        font-size: 1.5rem;
+        margin: 0;
+        width: 400px;
+        text-align: center;
+
+    }
+
+    .desnination-info {
+        width: 400px;
+    }
+
+    .img-container {
+        display: grid;
+        gap: 1rem;
+        grid-template-areas:
+            "c1"
+            "c2"
+            "c3"
+            "c4"
+            "c5"
+            "c6"
+            "c7";
+    }
+
+    #grid-1 {
+        height: 220px;
+        width: 410px;
+    }
+
+    #grid-2 {
+        height: 220px;
+        width: 410px;
+    }
+
+    #grid-3 {
+        height: 220px;
+        width: 410px;
+        background-size: cover;
+    }
+
+    #grid-4 {
+        height: 220px;
+        width: 410px;
+        background-size: cover;
+    }
+
+    #grid-5 {
+        height: 220px;
+        width: 410px;
+        background-size: cover;
+    }
+
+    #grid-6 {
+        height: 220px;
+        width: 410px;
+    }
+
+    #grid-7 {
+        height: 220px;
+        width: 410px;
+    }
+
+    /* Why Choose us */
+    .card-container {
+        grid-template-columns: 1fr;
+
+    }
+
+    .card-3 {
+        width: 337px;
+        height: 220px;
+    }
+
+    /* My Choose */
+    .my-choose-title {
+        margin: 0;
+    }
+
+    .my-choose {
+        flex-direction: column;
+    }
+
+    /* Perfect Place */
+    .place-container {
+        flex-direction: column;
+
+    }
+
+    .place-content {
+        width: 400px;
+    }
+
+    .place-title {
+        font-size: 1.7rem;
+    }
+
+    .place-bg {
+        width: 410px;
+        height: 250px;
+        border-radius: 10px;
+        background-size: cover;
+    }
+
+}
